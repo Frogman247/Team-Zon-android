@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.teamzon1.BActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/bLoc"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/download"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:shadowColor="#f6f1f1" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/bPark"
+        android:layout_below="@+id/bLoc"
+        android:layout_alignStart="@+id/bLoc"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/images1"
+        android:textSize="25dp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/bHead"
+        android:layout_below="@+id/bPark"
+        android:layout_alignStart="@+id/bPark"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sleepcar" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/bTemp"
+        android:background="@drawable/temp"
+        android:layout_below="@+id/bHead"
+        android:layout_alignStart="@+id/bHead"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>
